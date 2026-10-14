@@ -3,61 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Extra Resources Dashboard</title>
+    <title>Advanced Student Resource Center</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #0f172a;
+            color: #f8fafc;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            min-height: 100vh;
+            padding: 2rem 0;
             margin: 0;
         }
         h1 {
-            color: #a0aec0;
-            font-size: 2rem;
+            color: #94a3b8;
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            color: #64748b;
             margin-bottom: 2rem;
+            font-size: 1rem;
         }
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            max-width: 800px;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 1.2rem;
+            max-width: 1200px;
             width: 90%;
         }
         .btn {
-            background-color: #1a202c;
-            border: 2px solid #4a5568;
-            color: #fff;
-            padding: 1.5rem;
-            font-size: 1.2rem;
-            font-weight: bold;
+            background-color: #1e293b;
+            border: 1px solid #334155;
+            color: #e2e8f0;
+            padding: 1.2rem 1rem;
+            font-size: 1rem;
+            font-weight: 600;
             text-align: center;
             text-decoration: none;
-            border-radius: 8px;
+            border-radius: 10px;
             transition: all 0.2s ease;
-            cursor: pointer;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
         .btn:hover {
-            background-color: #2d3748;
-            border-color: #63b3ed;
-            transform: translateY(-2px);
+            background-color: #334155;
+            border-color: #3b82f6;
+            color: #fff;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
         }
     </style>
 </head>
 <body>
 
-    <h1>Study Hub Portal</h1>
+    <h1>Computational Reference Portal</h1>
+    <p>Select an analytical environment module below to launch initialization.</p>
 
     <div class="grid">
-        <!-- Game 1: Minecraft (The folder you already uploaded) -->
-        <a href="./JS_WEB/index.html" class="btn">Launch Resource 1 (Minecraft)</a>
+        <!-- 🕹️ Arcade / Casual -->
+        <a href="./JS_WEB/index.html" class="btn">Module 22: Eaglercraft (Local)</a>
+        <a href="https://github.io" class="btn">Module 1: Cookie Clicker</a>
+        <a href="https://github.io" class="btn">Module 6: Flappy Bird</a>
+        <a href="https://github.io" class="btn">Module 7: Doodle Jump</a>
+        <a href="https://github.io" class="btn">Module 11: Paper.io</a>
+        <a href="https://github.io" class="btn">Module 12: Slither.io</a>
+        <a href="https://github.io" class="btn">Module 30: Super Mario Bros</a>
+        <a href="https://github.io" class="btn">Module 33: BitLife Simulator</a>
+        <a href="https://github.io" class="btn">Module 40: Run 3</a>
         
-        <!-- Game 2: Place your next game folder name where it says 'game2' below -->
-        <a href="./game2/index.html" class="btn">Launch Resource 2</a>
+        <!-- 🗡️ Action / Strategy -->
+        <a href="https://github.io" class="btn">Module 25: Among Us 2D</a>
+        <a href="https://github.io" class="btn">Module 36: Stickman Adventure</a>
+        <a href="https://github.io" class="btn">Module 37: Age of War</a>
+        <a href="https://github.io" class="btn">Module 38: Raft Wars</a>
+        <a href="https://github.io" class="btn">Module 51: Duck Life 4</a>
+        
+        <!-- 🎯 Shooting / Combat -->
+        <a href="https://github.io" class="btn">Module 41: Krunker.io</a>
+        <a href="https://github.io" class="btn">Module 44: 1v1.lol</a>
+        <a href="https://github.io" class="btn">Module 52: Combat Online</a>
+        <a href="https://github.io" class="btn">Module 53: Bullet Force</a>
+        <a href="https://github.io" class="btn">Module 55: Getaway Shootout</a>
+        <a href="https://github.io" class="btn">Module 56: Rooftop Snipers</a>
+        <a href="https://github.io" class="btn">Module 57: Stick Fight</a>
+        <a href="https://github.io" class="btn">Module 58: Gun Mayhem 2</a>
+        
+        <!-- 🧠 Sports / Puzzle / Strategy -->
+        <a href="https://github.io" class="btn">Module 61: Retro Bowl</a>
+        <a href="https://neal.fun" class="btn">Module 62: Infinite Craft</a>
+        <a href="https://github.io" class="btn">Module 65: WorldGuessr (Geo)</a>
+        <a href="https://github.io" class="btn">Module 66: Little Alchemy 2</a>
+        <a href="https://github.io" class="btn">Module 68: Moto X3M</a>
+        <a href="https://github.io" class="btn">Module 69: Drift Boss</a>
+        <a href="https://github.io" class="btn">Module 70: Basketball Stars</a>
+        <a href="https://github.io" class="btn">Module 71: Football Legends</a>
+        <a href="https://github.io" class="btn">Module 76: Happy Wheels</a>
+        <a href="https://github.io" class="btn">Module 81: Sandboxels (Sand)</a>
+        <a href="https://github.io" class="btn">Module 87: WorldBox Simulator</a>
+        <a href="https://github.io" class="btn">Module 89: Idle Breakout</a>
+        <a href="https://github.io" class="btn">Module 91: Learn to Fly 2</a>
+        <a href="https://github.io" class="btn">Module 94: Flight Simulator</a>
+        <a href="https://github.io" class="btn">Module 97: Evolution Simulator</a>
+        <a href="https://github.io" class="btn">Module 99: Whack Your Boss</a>
     </div>
 
 </body>
