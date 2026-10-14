@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra Resources Dashboard</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: #a0aec0;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            max-width: 800px;
+            width: 90%;
+        }
+        .btn {
+            background-color: #1a202c;
+            border: 2px solid #4a5568;
+            color: #fff;
+            padding: 1.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #2d3748;
+            border-color: #63b3ed;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Study Hub Portal</h1>
+
+    <div class="grid">
+        <!-- Game 1: Minecraft (The folder you already uploaded) -->
+        <a href="./JS_WEB/index.html" class="btn">Launch Resource 1 (Minecraft)</a>
+        
+        <!-- Game 2: Place your next game folder name where it says 'game2' below -->
+        <a href="./game2/index.html" class="btn">Launch Resource 2</a>
+    </div>
+
+</body>
+</html>
